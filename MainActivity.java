@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity
         mv = (MapView)findViewById(R.id.map1);
 
         mv.setBuiltInZoomControls(true);
-        mv.getController().setZoom(16);
+        mv.getController().setZoom(15);
         mv.getController().setCenter(new GeoPoint(35.1684,33.7053));
     }
 }
